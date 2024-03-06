@@ -42,6 +42,11 @@ Get started with these beginner-friendly exercises to practice basic JavaScript 
 3. Create a function to check if a number is even or odd.
 4. Reverse a string.
 5. Find the largest element in an array.
+6. Write a function to find the maximum and minimum elements in an array.
+7. Create a function to check if a given year is a leap year.
+8. Implement a function to reverse words in a sentence.
+9. Write a program to calculate the factorial of a given number using recursion.
+10. Create a function to capitalize the first letter of each word in a sentence.
 
 ## Intermediate
 
@@ -52,6 +57,11 @@ Deepen your understanding with these intermediate-level exercises:
 3. Sort an array of integers in ascending order.
 4. Create a function to remove duplicate elements from an array.
 5. Implement a basic calculator with addition, subtraction, multiplication, and division operations.
+6. Implement a function to find the second largest element in an array.
+7. Write a program to check if a given string is a palindrome ignoring spaces and punctuation.
+8. Create a function to find the intersection of two arrays.
+9. Implement a function to check if a given number is a perfect number.
+10. Write a program to find the longest word in a sentence.
 
 ## Advanced
 
@@ -62,6 +72,11 @@ Challenge yourself with these advanced exercises:
 3. Implement a sorting algorithm (e.g., QuickSort, MergeSort).
 4. Write a function to generate Fibonacci sequence up to a specified number.
 5. Implement a function to reverse a linked list.
+6. Create a function to find the longest common subsequence between two strings.
+7. Implement a function to perform a depth-first search (DFS) on a graph.
+8. Write a program to validate a Sudoku puzzle solution.
+9. Create a function to find the nth prime number.
+10. Implement a function to perform matrix multiplication.
 
 ## Projects
 
