@@ -22,3 +22,6 @@ If the input year is 2021, the expected result should be:
 - Add validation to ensure that the input value is a valid year.
 - Allow the user to input the year using prompts.
 - Test the function with different input years to verify its correctness.
+
+
+[Previous Exercise](../6/README.md) | [Index](../../README.md) | [Next Exercise](../8/README.md)

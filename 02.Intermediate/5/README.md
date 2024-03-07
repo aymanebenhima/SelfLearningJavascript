@@ -30,3 +30,6 @@ Result of 6 / 2 is 3.
 - Allow the user to input the numbers and operator using prompts.
 - Add validation to ensure that the input values are valid numbers and operator.
 - Test the function with different input combinations to verify its correctness.
+
+
+[Previous Exercise](../4/README.md) | [Index](../../README.md) | [Next Exercise](../6/README.md)

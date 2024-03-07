@@ -22,3 +22,6 @@ The string "blue" is a valid hexadecimal color code: false
 - Allow for both 3-digit and 6-digit hexadecimal color codes.
 - Allow the user to input the color code using prompts.
 - Test the function with different input strings to verify its correctness.
+
+
+[Previous Exercise](../16/README.md) | [Index](../../README.md) | [Next Exercise](../18/README.md)

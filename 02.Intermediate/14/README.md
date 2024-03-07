@@ -23,3 +23,6 @@ Rotated array: [4, 5, 1, 2, 3]
 - Add validation to ensure that the input value is an array and the number of positions is a positive integer.
 - Allow the user to input the array and number of positions using prompts.
 - Test the function with different input arrays and numbers of positions to verify its correctness.
+
+
+[Previous Exercise](../13/README.md) | [Index](../../README.md) | [Next Exercise](../15/README.md)

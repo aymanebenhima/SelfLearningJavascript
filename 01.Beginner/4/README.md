@@ -22,3 +22,6 @@ The reversed string of "javascript" is "tpircsavaj".
 - Add validation to ensure that the input value is a string.
 - Allow the user to input the string using a prompt.
 - Test the function with different input values to verify its correctness.
+
+
+[Previous Exercise](../3/README.md) | [Index](../../README.md) | [Next Exercise](../5/README.md)

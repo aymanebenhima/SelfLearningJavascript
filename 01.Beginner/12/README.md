@@ -22,3 +22,6 @@ If the input number is 12345, the expected result should be:
 - Add validation to ensure that the input value is a number.
 - Allow the user to input the number using prompts.
 - Test the function with different input numbers to verify its correctness.
+
+
+[Previous Exercise](../11/README.md) | [Index](../../README.md) | [Next Exercise](../13/README.md)

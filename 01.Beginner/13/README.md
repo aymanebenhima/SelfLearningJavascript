@@ -23,3 +23,6 @@ The number of vowels in the string "javascript is awesome" is 8.
 - Add validation to ensure that the input value is a string.
 - Allow the user to input the string using prompts.
 - Test the function with different input strings to verify its correctness.
+
+
+[Previous Exercise](../12/README.md) | [Index](../../README.md) | [Next Exercise](../14/README.md)

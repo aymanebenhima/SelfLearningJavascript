@@ -23,3 +23,6 @@ Reversed sentence: "tpircSavaJ si emosewa"
 - Add validation to ensure that the input value is a string.
 - Allow the user to input the sentence using prompts.
 - Test the function with different input sentences to verify its correctness.
+
+
+[Previous Exercise](../7/README.md) | [Index](../../README.md) | [Next Exercise](../9/README.md)

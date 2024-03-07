@@ -23,3 +23,6 @@ Flattened array: [1, 2, 3, 4]
 - Add validation to ensure that the input value is an array.
 - Allow the user to input the nested array using prompts.
 - Test the function with different input nested arrays to verify its correctness.
+
+
+[Previous Exercise](../12/README.md) | [Index](../../README.md) | [Next Exercise](../14/README.md)

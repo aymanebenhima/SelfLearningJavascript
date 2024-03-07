@@ -22,3 +22,6 @@ If the input number is 10, the expected result should be:
 - Add validation to ensure that the input value is a number.
 - Allow the user to input the number using a prompt.
 - Test the function with different input values to verify its correctness.
+
+
+[Previous Exercise](../2/README.md) | [Index](../../README.md) | [Next Exercise](../4/README.md)

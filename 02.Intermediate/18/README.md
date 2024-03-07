@@ -24,3 +24,6 @@ If the input string is "256.0.0.1", the expected result should be:
 - Add validation to ensure that the input value is a string.
 - Allow the user to input the string using prompts.
 - Test the function with different input strings to verify its correctness.
+
+
+[Previous Exercise](../17/README.md) | [Index](../../README.md) | [Next Exercise](../19/README.md)

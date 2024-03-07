@@ -24,3 +24,6 @@ If there is no intersection, the expected result should be an empty array `[]`.
 - Add validation to ensure that the input values are arrays.
 - Allow the user to input the arrays using prompts.
 - Test the function with different input arrays to verify its correctness.
+
+
+[Previous Exercise](../7/README.md) | [Index](../../README.md) | [Next Exercise](../9/README.md)

@@ -18,3 +18,6 @@ Hello, World!
 - Print "Hello, World!" using string concatenation.
 - Store the string "Hello, World!" in a variable and then print it to the console.
 - Create a function that prints "Hello, World!" and call it from within your JavaScript code.
+
+
+[Index](../../README.md) | [Next Exercise](../2/README.md)

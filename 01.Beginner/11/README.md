@@ -22,3 +22,6 @@ The sum of all numbers in the array [15, 27, 10, 35, 20, 45] is 152.
 - Add validation to ensure that the input value is an array of numbers.
 - Allow the user to input the array using prompts.
 - Test the function with different input arrays to verify its correctness.
+
+
+[Previous Exercise](../10/README.md) | [Index](../../README.md) | [Next Exercise](../12/README.md)

@@ -19,3 +19,6 @@ Shuffled array: [4, 2, 5, 1, 3]
 - Add validation to ensure that the input value is an array.
 - Allow the user to input the array using prompts.
 - Test the function with different input arrays to verify its correctness.
+
+
+[Previous Exercise](../18/README.md) | [Index](../../README.md)

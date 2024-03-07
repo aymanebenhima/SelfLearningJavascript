@@ -23,3 +23,6 @@ The 2nd smallest element is: 2
 - Add validation to ensure that the input value is an array and k is a positive integer.
 - Allow the user to input the array and k using prompts.
 - Test the function with different input arrays and k values to verify its correctness.
+
+
+[Previous Exercise](../16/README.md) | [Index](../../README.md) | [Next Exercise](../18/README.md)

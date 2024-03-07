@@ -22,3 +22,6 @@ The string "example.com" is a valid email address format: false
 - Add more complex email address format validation.
 - Allow the user to input the email address using prompts.
 - Test the function with different input strings to verify its correctness.
+
+
+[Previous Exercise](../15/README.md) | [Index](../../README.md) | [Next Exercise](../17/README.md)

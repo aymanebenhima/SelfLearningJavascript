@@ -23,3 +23,6 @@ The second largest element is: 8
 - Add validation to ensure that the input value is an array of numbers.
 - Allow the user to input the array using prompts.
 - Test the function with different input arrays to verify its correctness.
+
+
+[Previous Exercise](../5/README.md) | [Index](../../README.md) | [Next Exercise](../7/README.md)

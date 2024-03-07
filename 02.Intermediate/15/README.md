@@ -23,3 +23,6 @@ If the input strings are "hello" and "world", the expected result should be:
 - Add validation to ensure that the input values are strings.
 - Allow the user to input the strings using prompts.
 - Test the function with different input strings to verify its correctness.
+
+
+[Previous Exercise](../14/README.md) | [Index](../../README.md) | [Next Exercise](../16/README.md)

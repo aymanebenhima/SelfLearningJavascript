@@ -25,3 +25,6 @@ Intersection: [1, 2]
 - Add validation to ensure that the input values are arrays.
 - Allow the user to input the arrays using prompts.
 - Test the function with different input arrays to verify its correctness.
+
+
+[Previous Exercise](../15/README.md) | [Index](../../README.md) | [Next Exercise](../17/README.md)

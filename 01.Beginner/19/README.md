@@ -23,3 +23,6 @@ Generated random password: 5uT#2@9b
 - Allow the user to specify whether to include uppercase and lowercase characters in the password.
 - Allow the user to specify whether to include symbols in the password.
 - Test the function with different input lengths to verify its correctness.
+
+
+[Previous Exercise](../18/README.md) | [Index](../../README.md) | [Next Exercise](../20/README.md)

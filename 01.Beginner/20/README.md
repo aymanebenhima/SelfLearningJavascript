@@ -23,3 +23,6 @@ The missing number is: 5
 - Add validation to ensure that the input value is an array containing integers from 1 to n.
 - Allow the user to input the array using prompts.
 - Test the function with different input arrays to verify its correctness.
+
+
+[Previous Exercise](../19/README.md) | [Index](../../README.md) | [Next Exercise](../../02.Intermediate/1/README.md)

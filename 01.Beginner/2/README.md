@@ -18,3 +18,6 @@ The sum of 3 and 5 is 8.
 - Add validation to ensure that the input values are numbers.
 - Allow the user to input the two numbers using prompts.
 - Create a function that takes two parameters (the two numbers) and returns the sum.
+
+
+[Previous Exercise](../1/README.md) | [Index](../../README.md) | [Next Exercise](../3/README.md)

@@ -1,32 +1,28 @@
-### Exercise: Perform a breadth-first search (BFS) on a graph
+### Exercise: Find the longest word in a sentence
 
 #### Task:
-Write a JavaScript function named `breadthFirstSearch` that takes a graph represented as an adjacency list and a starting vertex as input, and performs a breadth-first search (BFS) traversal.
+Write a JavaScript function named `findLongestWord` that takes a sentence as input and returns the longest word in the sentence.
 
 #### Expected Result:
-For example, if the input graph is represented as follows:
-```javascript
-const graph = {
-    0: [1, 2],
-    1: [0, 3, 4],
-    2: [0, 4],
-    3: [1, 5],
-    4: [1, 2, 5],
-    5: [3, 4]
-};
+For example, if the input sentence is "The quick brown fox jumps over the lazy dog", the expected result should be:
 ```
-and the starting vertex is `0`, the expected result should be:
+The longest word in the sentence is: jumps
 ```
-Breadth-first traversal starting from vertex 0: 0, 1, 2, 3, 4, 5
+If the input sentence is "Hello world!", the expected result should be:
+```
+The longest word in the sentence is: Hello
 ```
 
 #### Hints:
-1. Use a queue data structure to keep track of vertices to visit.
-2. Start by enqueueing the starting vertex.
-3. Iterate through the vertices in the queue, enqueueing adjacent vertices and marking them as visited.
+1. Split the sentence into words using a space as a delimiter.
+2. Iterate through the words and keep track of the length of each word.
+3. Find the word with the maximum length.
 4. Use `console.log()` to display the result.
 
 #### Additional Tasks (Optional):
-- Add validation to ensure that the input values are valid.
-- Allow the user to input the graph and starting vertex.
-- Test the function with different graphs and starting vertices to verify its correctness.
+- Add validation to ensure that the input value is a string.
+- Allow the user to input the sentence using prompts.
+- Test the function with different input sentences to verify its correctness.
+
+
+[Previous Exercise](../9/README.md) | [Index](../../README.md) | [Next Exercise](../11/README.md)

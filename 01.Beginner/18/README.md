@@ -22,3 +22,6 @@ If the input temperature value is 86, and units to convert from and to are 'F' (
 - Add validation to ensure that the input values are valid (e.g., numeric temperature value, valid unit conversion).
 - Allow the user to input the temperature and units using prompts.
 - Test the function with different input values and units to verify its correctness.
+
+
+[Previous Exercise](../17/README.md) | [Index](../../README.md) | [Next Exercise](../19/README.md)

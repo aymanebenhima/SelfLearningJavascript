@@ -22,3 +22,6 @@ Sorted array in ascending order: [1, 2, 3, 4, 5, 6, 7, 8, 9]
 - Add validation to ensure that the input value is an array of integers.
 - Allow the user to input the array using prompts.
 - Test the function with different input arrays to verify its correctness.
+
+
+[Previous Exercise](../2/README.md) | [Index](../../README.md) | [Next Exercise](../4/README.md)
