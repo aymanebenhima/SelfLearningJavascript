@@ -27,4 +27,4 @@ Capitalized sentence: Javascript Is Awesome
 - Test the function with different input sentences to verify its correctness.
 
 
-[Previous Exercise](../9/README.md) | [Index](../../README.md) | [Next Exercise](../11/README.md)
+[Previous Exercise](../09/README.md) | [Index](../../README.md) | [Next Exercise](../11/README.md)
