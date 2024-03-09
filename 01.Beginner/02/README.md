@@ -20,7 +20,7 @@ The sum of 3 and 5 is 8.
 - Create a function that takes two parameters (the two numbers) and returns the sum.
 
 
-## Solutions
+## Solution
 
 <details>
   <summary>Click For Solution</summary>
