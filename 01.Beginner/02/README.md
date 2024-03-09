@@ -20,4 +20,18 @@ The sum of 3 and 5 is 8.
 - Create a function that takes two parameters (the two numbers) and returns the sum.
 
 
+## Solutions
+
+<details>
+  <summary>Click For Solution</summary>
+
+```JS
+ const sum = (n1,n2) => {
+     return n1 + n2;
+ }
+
+ console.log(sum(5,5)) /// Output 10
+```
+
+
 [Previous Exercise](../01/README.md) | [Index](../../README.md) | [Next Exercise](../03/README.md)
