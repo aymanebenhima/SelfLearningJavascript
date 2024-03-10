@@ -8,7 +8,7 @@ For example, if the input string is "example@example.com", the expected result s
 ```
 The string "example@example.com" is a valid email address format: true
 ```
-If the input string is "example.com", the expected result should be:
+If the input string is "", the expected result should be:
 ```
 The string "example.com" is a valid email address format: false
 ```
@@ -30,21 +30,14 @@ The string "example.com" is a valid email address format: false
   <summary>Click For Solution</summary>
 
 ```JS
-const removeDuplicates = (array) => {
+const  isValidEmail = (email) => {
+  const emailRegex = /^([a-zA-Z0-9._%+-]+)@([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})$/;
 
-   const  set = new Set()
-
-
-    for (const item of array) {
-        set.add(item);
-    }
-
-
-    return set;
+  return emailRegex.test(email);
 }
 
 
-console.log(removeDuplicates([1,5,4,4]));
+console.log(isValidEmail("example.com")) /// Output false
 
 ```
 
