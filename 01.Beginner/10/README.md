@@ -27,4 +27,30 @@ Capitalized sentence: Javascript Is Awesome
 - Test the function with different input sentences to verify its correctness.
 
 
+## Solution
+
+<details>
+  <summary>Click For Solution</summary>
+
+```JS
+const capitalizeFirstLetter = (str) => {
+    
+    let array = str.split(" ");
+    
+    let capitalize = [];
+    
+    for(let item of array){
+        capitalize.push(item.charAt(0).toUpperCase() + item.slice(1));
+    }
+    
+    
+    return capitalize.join(" ");
+    
+    
+}
+
+console.log(capitalizeFirstLetter("hello world")); 
+
+```
+
 [Previous Exercise](../09/README.md) | [Index](../../README.md) | [Next Exercise](../11/README.md)

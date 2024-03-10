@@ -24,4 +24,19 @@ If the input year is 2021, the expected result should be:
 - Test the function with different input years to verify its correctness.
 
 
+## Solution
+
+<details>
+  <summary>Click For Solution</summary>
+
+```JS
+const isLeapYear =  (year) => {
+    return year % 4 == 0 && year % 100 !== 0 || year % 400 == 0 ? "Leap year" : "not a leap year";
+}
+
+
+console.log(isLeapYear(2020)) // output is a leap year
+
+```
+
 [Previous Exercise](../06/README.md) | [Index](../../README.md) | [Next Exercise](../08/README.md)

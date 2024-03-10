@@ -24,5 +24,34 @@ Reversed sentence: "tpircSavaJ si emosewa"
 - Allow the user to input the sentence using prompts.
 - Test the function with different input sentences to verify its correctness.
 
+## Solution
+
+<details>
+  <summary>Click For Solution</summary>
+
+```JS
+const reverseWords = (str) => {
+
+    const array = str.split(" ");
+    
+    let reversedwords = [];
+
+    for(let item of array){
+        
+        let strword = "";
+        for(let i = item.length - 1 ; i>=0 ; i--){
+            strword+=item[i];
+        }
+        reversedwords.push(strword);
+    }
+
+    return reversedwords.join(" ");  
+}
+
+
+console.log(reverseWords("hello world"));
+
+```
+
 
 [Previous Exercise](../07/README.md) | [Index](../../README.md) | [Next Exercise](../09/README.md)

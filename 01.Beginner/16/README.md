@@ -24,4 +24,28 @@ The string "example.com" is a valid email address format: false
 - Test the function with different input strings to verify its correctness.
 
 
+## Solution
+
+<details>
+  <summary>Click For Solution</summary>
+
+```JS
+const removeDuplicates = (array) => {
+
+   const  set = new Set()
+
+
+    for (const item of array) {
+        set.add(item);
+    }
+
+
+    return set;
+}
+
+
+console.log(removeDuplicates([1,5,4,4]));
+
+```
+
 [Previous Exercise](../15/README.md) | [Index](../../README.md) | [Next Exercise](../17/README.md)

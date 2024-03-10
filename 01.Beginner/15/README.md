@@ -24,4 +24,31 @@ The string "hello$world" contains only alphanumeric characters: false
 - Test the function with different input strings to verify its correctness.
 
 
+
+  ## Solution
+
+<details>
+  <summary>Click For Solution</summary>
+
+```JS
+
+const isAlphanumeric = (str) => {
+
+
+    let strs= str.toUpperCase();
+    for (let i = 0; i < strs.length; i++) {
+      const charCode = strs.charCodeAt(i);
+      if ((charCode >= 48 && charCode <= 57) ||
+          (charCode >= 65 && charCode <= 90)){ 
+        return true;
+      }
+    }
+    return false;
+  };
+
+
+console.log(removeDuplicates([1,5,4,4]));
+
+```
+
 [Previous Exercise](../14/README.md) | [Index](../../README.md) | [Next Exercise](../16/README.md)
