@@ -8,7 +8,7 @@ For example, if the input string is "example@example.com", the expected result s
 ```
 The string "example@example.com" is a valid email address format: true
 ```
-If the input string is "example.com", the expected result should be:
+If the input string is "", the expected result should be:
 ```
 The string "example.com" is a valid email address format: false
 ```
@@ -23,5 +23,22 @@ The string "example.com" is a valid email address format: false
 - Allow the user to input the email address using prompts.
 - Test the function with different input strings to verify its correctness.
 
+
+## Solution
+
+<details>
+  <summary>Click For Solution</summary>
+
+```JS
+const  isValidEmail = (email) => {
+  const emailRegex = /^([a-zA-Z0-9._%+-]+)@([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})$/;
+
+  return emailRegex.test(email);
+}
+
+
+console.log(isValidEmail("example.com")) /// Output false
+
+```
 
 [Previous Exercise](../15/README.md) | [Index](../../README.md) | [Next Exercise](../17/README.md)

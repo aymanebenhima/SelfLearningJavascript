@@ -20,4 +20,15 @@ Hello, World!
 - Create a function that prints "Hello, World!" and call it from within your JavaScript code.
 
 
+## Solutions
+
+<details>
+  <summary>Click For Solution</summary>
+
+```JS
+function printHelloWorld() {
+  return 'Hello World!';
+}
+```
+
 [Index](../../README.md) | [Next Exercise](../02/README.md)

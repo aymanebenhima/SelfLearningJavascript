@@ -24,4 +24,37 @@ The largest element in the array [15, 27, 10, 35, 20, 45] is 45.
 - Test the function with different input arrays to verify its correctness.
 
 
+
+## Solution
+
+<details>
+  <summary>Click For Solution</summary>
+
+```JS
+consgt findLargestElement = (array) => {
+
+      if (!Array.isArray(array)) {
+        return "Please enter a valid array.";
+    }
+
+
+    let max = array[0];
+
+
+    for(let i = 0 ; i < array.length ; i++){
+        if(array[i] > max){
+            max = array[i];
+        }
+    }
+
+
+    return max;
+}
+
+
+
+console.log(findLargestElement([8,-4,0,8,4,66])); // output 66
+
+```
+
 [Previous Exercise](../04/README.md) | [Index](../../README.md) | [Next Exercise](../06/README.md)

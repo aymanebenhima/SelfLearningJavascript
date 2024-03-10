@@ -25,4 +25,28 @@ Generated random password: 5uT#2@9b
 - Test the function with different input lengths to verify its correctness.
 
 
+## Solution
+
+<details>
+  <summary>Click For Solution</summary>
+
+```JS
+
+const  generateRandomPassword = (length) => {
+  const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+-=[]{}|;:'<>,.?/";
+
+  let password = "";
+  for (let i = 0; i < length; i++) {
+    password += charset.charAt(Math.floor(Math.random() * charset.length));
+  }
+
+  return password;
+}
+
+
+console.log(generateRandomPassword(20)); 
+```
+
+
+
 [Previous Exercise](../18/README.md) | [Index](../../README.md) | [Next Exercise](../20/README.md)
