@@ -23,5 +23,35 @@ The reversed string of "javascript" is "tpircsavaj".
 - Allow the user to input the string using a prompt.
 - Test the function with different input values to verify its correctness.
 
+## Solution
+
+<details>
+  <summary>Click For Solution</summary>
+
+```JS
+const reverseString = (str) => {
+
+    if(typeof str !== 'string'){
+        return "Please enter a valid string";
+    }
+
+    let reversedString = "";
+    for(let i = str.length - 1 ; i >=0 ; i--){
+            reversedString+=str[i];
+    }
+
+    return reversedString;
+
+}
+
+
+
+console.log(reverseString(7)); /// Invalid String
+console.log(reverseString("javascript")); /// tpircsavaj
+
+```
+
+
+
 
 [Previous Exercise](../03/README.md) | [Index](../../README.md) | [Next Exercise](../05/README.md)

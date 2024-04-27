@@ -23,5 +23,19 @@ The string "blue" is a valid hexadecimal color code: false
 - Allow the user to input the color code using prompts.
 - Test the function with different input strings to verify its correctness.
 
+## Solution
+
+<details>
+  <summary>Click For Solution</summary>
+
+```JS
+const  isValidHexColor = (hexColor) => {
+  const hexRegex = /^#([A-Fa-f0-9]{3}){1,2}$/;
+  return hexRegex.test(hexColor);
+}
+
+console.log(isValidHexColor("#FFA500")); // Output true
+
+```
 
 [Previous Exercise](../16/README.md) | [Index](../../README.md) | [Next Exercise](../18/README.md)

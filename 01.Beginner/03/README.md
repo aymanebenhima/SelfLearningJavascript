@@ -24,4 +24,28 @@ If the input number is 10, the expected result should be:
 - Test the function with different input values to verify its correctness.
 
 
+## Solution
+
+<details>
+  <summary>Click For Solution</summary>
+
+```JS
+const isEvenOrOdd = (n) => {
+
+    if(typeof n !== 'number'){
+        return "please enter a valid number !";
+    }
+
+    return n % 2 == 0 ? "even" : "odd"
+}
+
+console.log(isEvenOrOdd(4)); // even
+console.log(isEvenOrOdd("2")); // Invalid Number
+console.log(isEvenOrOdd(7)); // odd
+
+```
+
+
+
+
 [Previous Exercise](../02/README.md) | [Index](../../README.md) | [Next Exercise](../04/README.md)

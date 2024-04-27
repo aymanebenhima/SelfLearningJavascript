@@ -24,4 +24,26 @@ The sum of all numbers in the array [15, 27, 10, 35, 20, 45] is 152.
 - Test the function with different input arrays to verify its correctness.
 
 
+## Solution
+
+<details>
+  <summary>Click For Solution</summary>
+
+```JS
+const sumOfArray = (array) => {
+    
+    let sum = 0;
+
+    for(let i = 0 ; i < array.length ; i++){
+        sum += array[i];
+    }
+
+    return sum;
+}
+
+
+console.log(sumOfArray([1,4,5]))
+
+```
+
 [Previous Exercise](../10/README.md) | [Index](../../README.md) | [Next Exercise](../12/README.md)
