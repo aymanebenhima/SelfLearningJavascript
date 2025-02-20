@@ -3,8 +3,29 @@
 ### Exercise: Level 1
 
 ```js
-import { countries } from './data/countries.js';
-import { webTechs } from './data/web_techs.js';
+const countries = [
+  'Albania',
+  'Bolivia',
+  'Canada',
+  'Denmark',
+  'Ethiopia',
+  'Finland',
+  'Germany',
+  'Hungary',
+  'Ireland',
+  'Japan',
+  'Kenya'
+]
+
+const webTechs = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'React',
+  'Redux',
+  'Node',
+  'MongoDB'
+]
 ```
 
 - Declare an empty array
