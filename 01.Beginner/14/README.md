@@ -27,4 +27,29 @@ Array with duplicates removed: ['a', 'b', 'c', 'd']
 - Test the function with different input arrays to verify its correctness.
 
 
+
+## Solution
+
+<details>
+  <summary>Click For Solution</summary>
+
+```JS
+const removeDuplicates = (array) => {
+
+   const  set = new Set()
+
+
+    for (const item of array) {
+        set.add(item);
+    }
+
+
+    return set;
+}
+
+
+console.log(removeDuplicates([1,5,4,4]));
+
+```
+
 [Previous Exercise](../13/README.md) | [Index](../../README.md) | [Next Exercise](../15/README.md)

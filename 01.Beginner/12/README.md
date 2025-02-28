@@ -24,4 +24,27 @@ If the input number is 12345, the expected result should be:
 - Test the function with different input numbers to verify its correctness.
 
 
+## Solution
+
+<details>
+  <summary>Click For Solution</summary>
+
+```JS
+const palindrome = (n) => {
+
+    let str = n.toString();
+
+    let resulkt = "";
+    for(let i = str.length - 1 ; i >=0 ; i--){
+        resulkt+=str[i];
+    }
+
+    return resulkt == str ? true : false;
+}
+
+
+console.log(palindrome(701))
+
+```
+
 [Previous Exercise](../11/README.md) | [Index](../../README.md) | [Next Exercise](../13/README.md)

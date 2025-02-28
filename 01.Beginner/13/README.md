@@ -25,4 +25,26 @@ The number of vowels in the string "javascript is awesome" is 8.
 - Test the function with different input strings to verify its correctness.
 
 
+
+## Solution
+
+<details>
+  <summary>Click For Solution</summary>
+
+```JS
+const countVowels = (str) => {
+    
+    for(let i = 0 ; i < str.length ; i++){
+        if(str[i] == "a" || str[i] == "e" || str[i] == "i" || str[i] == "u" || str[i] == "o"){
+            return true
+        }
+    }
+
+    return false;
+}
+
+
+console.log(countVowels("anas"));
+
+```
 [Previous Exercise](../12/README.md) | [Index](../../README.md) | [Next Exercise](../14/README.md)

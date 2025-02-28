@@ -25,4 +25,32 @@ The missing number is: 5
 - Test the function with different input arrays to verify its correctness.
 
 
+## Solution
+
+<details>
+  <summary>Click For Solution</summary>
+
+```JS
+
+const findMissingNumber = (input) => {
+
+  const n = input.length + 1;
+  let expectedsum = (n * (n + 1)) / 2; 
+  let actualsum = 0;
+
+  
+  for (let num of input) {
+    actualsum += num;
+  }
+
+  const Missingnumber = expectedsum - actualsum;
+
+  return `The missing number is: ${Missingnumber}`;
+}
+
+
+console.log(findMissingNumber([1,2,4])) // Output The missing number is : 3
+
+```
+
 [Previous Exercise](../19/README.md) | [Index](../../README.md) | [Next Exercise](../../02.Intermediate/1/README.md)

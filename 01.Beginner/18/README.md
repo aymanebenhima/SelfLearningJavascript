@@ -24,4 +24,25 @@ If the input temperature value is 86, and units to convert from and to are 'F' (
 - Test the function with different input values and units to verify its correctness.
 
 
+## Solution
+
+<details>
+  <summary>Click For Solution</summary>
+
+```JS
+const  convertTemperature = (temperature, from, to) => {
+  let convertedTemp;
+  if (from === 'C' && to === 'F') {
+    convertedTemp = (temperature * (9/5)) + 32;
+  } else if (from === 'F' && to === 'C') {
+    convertedTemp = (temperature - 32) * (5/9);
+  } 
+  return `${temperature}°${from} is equivalent to ${convertedTemp}°${to}.`;
+}
+
+
+console.log(convertTemperature(4 , "C" , "F")); // Output 4°C is equivalent to 39.2°F.
+
+```
+
 [Previous Exercise](../17/README.md) | [Index](../../README.md) | [Next Exercise](../19/README.md)

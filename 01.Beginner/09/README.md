@@ -25,4 +25,24 @@ The factorial of 0 is 1.
 - Test the function with different input numbers to verify its correctness.
 
 
+## Solution
+
+<details>
+  <summary>Click For Solution</summary>
+
+```JS
+const calculateFactorial = (n) => {
+    if (n === 0 || n === 1) {
+            return 1;
+    }
+        else {
+            return n * calculateFactorial(n - 1);
+        }
+    }
+    
+    
+    console.log(calculateFactorial(5))
+
+```
+
 [Previous Exercise](../08/README.md) | [Index](../../README.md) | [Next Exercise](../10/README.md)
