@@ -1,4 +1,5 @@
-# 📔 Day 1
+## 💻 Exercises:Day 01 - Objects
+
 - [Objects](#objects)
 
 - [💻 Exercises](#-exercises)

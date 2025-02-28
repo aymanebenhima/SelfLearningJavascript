@@ -1,4 +1,5 @@
-# 📔 Day 1
+## 💻 Exercises:Day 01 - Functions
+
 - [Functions](#functions)
 	- [💻 Exercises](#-exercises)
 		- [Exercises: Level 1](#exercises-level-1)

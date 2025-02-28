@@ -1,4 +1,4 @@
-## 💻 Exercise
+## 💻 Exercises:Day 01 - Arrays
 
 ### Exercise: Level 1
 

@@ -1,4 +1,5 @@
-## 💻 Exercises:Day 01 - Loops 
+## 💻 Exercises:Day 01 - Loops
+
 [Loops](#loops)
 	- [💻 Exercises:Day 101](#-exercisesday-1)
 		- [Exercises: Level 1](#exercises-level-1)
